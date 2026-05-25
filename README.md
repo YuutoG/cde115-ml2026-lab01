@@ -78,6 +78,12 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
+Si se utiliza Google Colab omitir Jupyter:
+```
+pip install "pandas==3.0.3"
+numpy==2.4.6" "scikit-learn==1.8.0" "xgboost==3.2.0" "matplotlib==3.10.9" "seaborn==0.13.2" "requests==2.34.2" "scipy==1.17.1" "tqdm==4.67.3" "joblib==1.5.3" "html5lib==1.1" "lxml==6.1.1"
+```
+
 
 ### Ejecución
 El flujo de trabajo está numerado lógicamente en la carpeta `/notebooks`. Se deben ejecutar en orden ascendente (desde el `00` hasta el `03`) para asegurar que los datos procesados y los modelos entrenados se pasen correctamente de un cuaderno a otro.
